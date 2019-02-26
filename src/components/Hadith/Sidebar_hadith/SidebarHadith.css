@@ -1,0 +1,67 @@
+.sidebarWrapper{
+    background-color: #333333;
+    height: 100vh;
+}
+.ht_sidebarTitleWrapper{
+    background-color: #cecece;
+}
+.ht_sidebarTitle {
+    float: left;
+    width: 130px;
+}
+.ht_sidebarTitle h2{
+    font-size: 1.25rem;
+}
+.ht_sidebarTitleImage{
+    float: left;
+}
+.ht_sidebarTitleImage img{
+    /*width: 50px;*/
+    height: 60px;
+}
+.ht_titleWrapper{
+    padding: 15px;
+    position: relative;
+}
+.ht_titleWrapper .ht_sidebarTitleImage{
+    position: absolute;
+    right: 15px;
+}
+.ht_SelectBoxWrapper .ht_SelectTitle{
+    padding: 15px;
+}
+/* Select Box bg color*/
+.ht_SelectBoxWrapper.ht_bg_violet .ht_SelectTitle{
+    background-color: #D8CDCB;
+}
+.ht_SelectBoxWrapper.ht_bg_sky_blue .ht_SelectTitle{
+    background-color: #D0D9DE;
+}
+.ht_SelectBoxWrapper.ht_bg_pink .ht_SelectTitle{
+    background-color: #FBCBBD;
+}
+.ht_SelectBoxWrapper.ht_bg_orange .ht_SelectTitle{
+    background-color: #FEEEB3;
+}
+.ht_SelectBoxWrapper.ht_bg_green .ht_SelectTitle{
+    background-color: #DCECC8;
+}
+.ht_SelectBoxWrapper.ht_bg_blue .ht_SelectTitle{
+    background-color: #B3E0DD;
+}
+/* Select Box bg color*/
+.ht_SelectBoxWrapper .ht_SelectBox .css-vj8t7z{
+    border-radius: 0;
+    border: 0;
+    border-bottom: 1px solid #d8cdcb;
+}
+.ht_SelectBoxWrapper .ht_SelectBox .css-2o5izw:hover{
+    border: none;
+}
+.ht_SelectBoxWrapper .ht_SelectBox .css-1hwfws3:focus{
+    outline: none;
+}
+.ht_SelectBoxWrapper .ht_SelectTitle h2{
+    font-size: 1.25rem;
+    margin-bottom: 0;
+}

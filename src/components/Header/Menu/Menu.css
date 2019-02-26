@@ -1,0 +1,35 @@
+.mainMenuWrapper{
+    background-image: url('../../../assets/book-pattern.png');
+    background-color: #343a40;
+}
+.menuWrapper{
+    width: 100%;
+    background-image: linear-gradient(180deg, #444, #222);
+    box-shadow: 0px 0px 40px rgba(0,0,0,.35);
+}
+.menuWrapper ul{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.menuWrapper ul li{
+    list-style: none;
+    display: inline-block;
+}
+.menuWrapper li a{
+    font-size: 14px;
+    padding: 0 15px;
+    line-height: 50px;
+    text-decoration: none;
+    color: #cdcdcd;
+    transition: color .2s ease-in;
+    display: inline-block;
+}
+.menuWrapper li a:hover{
+    color: #ffffff;
+}
+.menuWrapper li a.active{
+    color: #ffffff;
+    background-image: linear-gradient(180deg, #15cde1, #14889b);
+    box-shadow: 0 0 7px rgba(255, 255, 255, 0.35);
+}

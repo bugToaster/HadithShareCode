@@ -1,0 +1,14 @@
+.footerWrapper{
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.footerHeaderTitle, .footerContentWrapper{
+    color: #ffffff;
+}
+.footerHeaderTitle{
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ffc107;
+}
+.footerHeaderTitle h2{
+    font-size: 1.25em;
+}

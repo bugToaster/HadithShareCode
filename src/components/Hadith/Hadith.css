@@ -1,0 +1,65 @@
+.h100p{
+    height: 100%;
+}
+.sectonHadith{
+    background-color: #fff;
+    width: 100%;
+}
+.contentWrapper{
+
+}
+.ht_contentHeaderWrapper{
+    height: 85px;
+    width: 100%;
+    display: flex;
+}
+.ht_contentHeaderNumber{
+    background-color: #cecece;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ht_contentHeaderNumber p{
+    margin-bottom: 0;
+    font-size: 20px;
+}
+.ht_contentHeaderNumber span{
+    color: #fc4000;
+}
+.ht_contentHeaderDate{
+    background-color: #f7f7f7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ht_contentHeaderDate p{
+    margin-bottom: 0;
+    font-size: 12px;
+    font-weight: 500;
+}
+.ht_bookWrapper a{
+    display: flex;
+    text-decoration: none;
+}
+.ht_bookWrapper a:hover .shadow{
+    box-shadow: 0 .1rem 1rem rgba(0,0,0,.05)!important;
+    transition: all .2s ease-in;
+}
+.ht_bookWrapper .card{
+    width: 100%;
+}
+.ht_bookWrapper .card-header{
+    min-height: 75px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(20, 189, 208);
+}
+.ht_bookWrapper .card-header h5{
+    margin-bottom: 0;
+    font-size: 1.125rem;
+    color: #ffffff;
+}
+.ht_bookWrapper .card-text{
+    font-size: 0.8125rem;
+    color: #808080;
+}

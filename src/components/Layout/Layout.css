@@ -1,0 +1,11 @@
+main{
+    width: 100%;
+}
+.mainHeader{
+    background-image: url('../../assets/book-pattern.png');
+    width: 100%;
+}
+footer{
+    width: 100%;
+    background-color: #343A40;
+}

@@ -1,0 +1,23 @@
+.htb_contentHeaderWrapper .ht_contentHeaderNumber p{
+    font-size: 1rem;
+}
+.htb_contentBodyWrapper .active.list-group-item{
+    background-color: rgb(20, 189, 208);
+    border-color: rgb(20, 189, 208);
+}
+.htb_contentBodyWrapper .active.list-group-item h5{
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+.htb_listItem{
+    padding: 0;
+}
+.htb_listItem .htb_listItemLink{
+    padding: .75rem 1.25rem;
+    display: block;
+    text-decoration: none;
+    color: #444444;
+}
+.htb_listItem .htb_listItemLink:hover{
+    background-color: #f8f9fa;
+}

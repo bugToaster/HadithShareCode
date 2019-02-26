@@ -1,0 +1,7 @@
+.logoWrapper{
+    width: 100%;
+}
+.logoWrapper img{
+    height: 70px;
+    /*float: left;*/
+}

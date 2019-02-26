@@ -1,2 +1,0 @@
-# HadithShareCode
-Created with CodeSandbox

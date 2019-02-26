@@ -1,0 +1,29 @@
+.topHeader{
+    width: 100%;
+    background-color: rgba(108, 117, 125, 0.9);
+}
+ul.socialWrapper{
+    padding: 0;
+    list-style: none;
+    margin-bottom: 0;
+}
+.socialWrapper li {
+    display: inline-block;
+    padding-right: 20px;
+}
+.socialWrapper li a{
+    color: #ffffff;
+}
+.socialWrapper,.loginWrapper{
+    display: inline-block;
+}
+.loginWrapper .dropdown > button{
+    border-radius: 0;
+}
+.loginWrapper .dropdown.show > .btn-secondary.dropdown-toggle,
+.loginWrapper .dropdown > .btn-secondary.focus{
+    box-shadow: none;
+}
+.loginDropdown{
+    left: -100px;
+}
